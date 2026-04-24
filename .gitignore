@@ -1,0 +1,39 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# Local settings (contains secrets)
+local.settings.json
+
+# Azure Functions
+.python_packages/
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+
+# dotnet
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.nuget/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Azurite local storage
+__blobstorage__
+__queuestorage__
+__tablestorage__
+.azurite/
